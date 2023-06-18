@@ -3,6 +3,14 @@
 version = 3
 
 [[package]]
+name = "Prometheus"
+version = "0.1.0"
+dependencies = [
+ "eframe",
+ "env_logger",
+]
+
+[[package]]
 name = "ab_glyph"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -753,14 +761,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3857d743a6e0741cdd60b622a74c7a36ea75f5f8f11b793b41d905d2c9721a4b"
 dependencies = [
  "bytemuck",
-]
-
-[[package]]
-name = "emulator"
-version = "0.1.0"
-dependencies = [
- "eframe",
- "env_logger",
 ]
 
 [[package]]
