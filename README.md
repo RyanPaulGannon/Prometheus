@@ -1,1 +1,1 @@
-# Trying Rust by building an emulator (Prometheus)
+### Learning Rust by building an emulator (Prometheus)
